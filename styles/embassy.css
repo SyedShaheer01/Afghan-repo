@@ -1127,7 +1127,7 @@ body {
   border-radius: 40px;
   padding: 15px 0px 15px 40px;
   margin-left: 50px;
-  overflow: hidden; /* shading box ke andar hi rahegi */
+  overflow: hidden;
 }
 
 /* Gradient overlay for bottom */
@@ -1137,11 +1137,11 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 160px; /* jitni shade neeche chahiye utna badha sakte ho */
+  height: 160px; 
   background: linear-gradient(to top, #d2d8f3  40%, transparent 100%);
   border-radius: 0 0 40px 40px;
-  z-index: 1; /* upar dikhe boxes par */
-  pointer-events: none; /* click block na kare */
+  z-index: 1; 
+  pointer-events: none; 
 }
 
 
