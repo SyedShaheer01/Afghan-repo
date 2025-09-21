@@ -301,14 +301,13 @@ body {
   overflow: hidden;
   border-radius: 20px;
   position: relative;
-  font-family: "Inter", sans-serif !important;
   font-weight: 600 !important;
   cursor: pointer;
-
+  
 }
 
 #customCarousel .boxes-gap {
-  gap: 70px;
+  gap: 50px;
 
 }
 
@@ -366,12 +365,23 @@ body {
   margin: 0;
   font-size: 18px;
   font-weight: bold;
+  opacity: 0.5;
 }
 
 .box-content p,
 .box-content1 p {
   margin: 7px 0 0;
   font-size: 14px;
+    opacity: 0.5;
+
+}
+
+
+.box-content.active h5,
+.box-content.active p,
+.box-content1.active h5,
+.box-content1.active p {
+  opacity: 1;
 }
 
 
@@ -1111,25 +1121,29 @@ body {
 
 /* Right Section (Downloads) */
 .downloads-box {
+  position: relative;
   width: 90%;
-  background: linear-gradient(to bottom, #f6f9ff 0%, #c7c9de 70%, #b4bdec 90%);
+  background: linear-gradient(to bottom, #f6f9ff 0%, #c7c9de 60%, #b4bdec 90%);
   border-radius: 40px;
   padding: 15px 0px 15px 40px;
-  padding-bottom: 0px !important;
   margin-left: 50px;
-  /* position: relative; */
-  /* z-index: -1; */
-
+  overflow: hidden; /* shading box ke andar hi rahegi */
 }
 
-.downloads-box h6 {
-  font-size: 20px !important;
-  font-family: "Inter", sans-serif !important;
-  font-weight: 600 !important;
-  color: #1E317F;
-
-
+/* Gradient overlay for bottom */
+.downloads-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 160px; /* jitni shade neeche chahiye utna badha sakte ho */
+  background: linear-gradient(to top, #d2d8f3  40%, transparent 100%);
+  border-radius: 0 0 40px 40px;
+  z-index: 1; /* upar dikhe boxes par */
+  pointer-events: none; /* click block na kare */
 }
+
 
 .download-item {
   background: white;
@@ -1141,6 +1155,14 @@ body {
   cursor: pointer;
   position: relative;
   /* z-index: -1; */
+
+}
+.downloads-box h6 {
+  font-size: 20px !important;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 600 !important;
+  color: #1E317F;
+
 
 }
 
@@ -1175,6 +1197,7 @@ body {
   font-family: "Inter", sans-serif !important;
   border: 1px solid black;
   transition: 0.3s ease !important;
+  z-index: 2;
   
 
 
