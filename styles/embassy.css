@@ -444,6 +444,23 @@ body {
   padding-bottom: 100px;
 
 }
+.dark-embassy {
+  background: #11172E;
+  margin-top: -120px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding-bottom: 100px;
+
+}
+
+.afghan-header {
+  margin-top: -22%;
+
+}
+
+.blue-img {
+  width: 100%;
+}
 
 
 
@@ -1305,6 +1322,21 @@ body {
 
 }
 
+.news-dark {
+  padding: 0;
+  background-color: #11172E;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding-bottom: 180px;
+  font-family: "Instrument Sans", sans-serif !important;
+  font-weight: 700;
+
+}
+
+.news-header {
+  margin-top: -18%;
+}
+
 
 .news-card {
   position: relative;
@@ -1401,6 +1433,12 @@ body {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-bottom: 10px;
+  }
+   .news-dark {
+    padding-bottom: 100px;
+  }
+   .news-header {
+    padding-top: 40px;
   }
 
   .news-card2 {
@@ -1548,6 +1586,14 @@ body {
   border-top-left-radius: 80px;
   border-top-right-radius: 80px;
   margin-top: -100px;
+}
+.dark-footer {
+  background-color: #0b1330;
+  padding: 50px 20px;
+  font-size: 14px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  margin-top: -140px;
 }
 
 .footer h5 {
