@@ -2069,14 +2069,37 @@ body {
     }
 
     @media (max-width: 768px) {
+      .consulate-section{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+      }
       .consulate-title {
         font-size: 25px;
         text-align: start;
       }
-      .consulate-subtitle {
+      .consulate-text{
+        font-size: 22px;
+      }
+      .heading-subtitle {
         text-align: start;
         font-size: 18px;
       }
+      .afg-main-heading{
+        font-size: 25px;
+        line-height: 1.2;
+      }
+      .hero-section p{
+        font-size: 8px !important;
+        
+        
+      }
+
+      .hero-section h1{
+        font-size: 35px;
+      }
+       .custom-flex {
+    gap: 10px !important;
+  }
     }
 
 
@@ -2142,17 +2165,31 @@ body {
     @media (max-width: 992px) {
       .mission-card {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+      }
+      .mission-desc{
+        text-align: center;
+        font-size: 14px;
       }
 
       .mission-text {
         max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-right: 30px;
+      }
+      .mission-title{
+        text-align: center;
         margin-bottom: 20px;
       }
 
       .mission-icon img {
         width: 180px;
         height: 180px;
+      }
+      .bulb-img{
+        left: -20px;
       }
     }
 
@@ -2243,6 +2280,10 @@ body {
     }
 
     @media (max-width: 992px) {
+      .responsibilities-section{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
       .responsibility-card {
         height: auto;
         padding: 30px 20px;
@@ -2250,10 +2291,10 @@ body {
         text-align: center;
       }
       .responsibility-text {
-        font-size: 0.95rem;
+        font-size:18px;
       }
       .responsibilities-section h2{
-        font-size: 25px;
+        font-size: 22px;
       }
     }
 
@@ -2336,6 +2377,13 @@ body {
       .consul-img {
         display: block;
         margin: 0 auto;
+      }
+      .message-main-heading{
+        font-size: 22px !important;
+        line-height: 1.2 !important;
+      }
+      .left-info p{
+        font-size: 18px;
       }
     }
 
@@ -2532,7 +2580,15 @@ body {
 }
 
 @media (max-width: 992px) {
-
+  .about-us-footer{
+    margin-top: 80px !important;
+  }
+  .bio-footer{
+    margin-top: 60px !important;
+  }
+  .officer-footer{
+    margin-top: 60px !important;
+  }
   .footer-links a {
     font-size: 14px;
   }
@@ -2862,6 +2918,10 @@ body {
         align-items: center;
         padding: 0;
       }
+      .previous-officers-section{
+         border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
     }
 
 
@@ -2954,7 +3014,13 @@ body {
 
     @media (max-width: 991px) {
       .bio-section {
-        padding: 30px;
+        /* padding: 30px; */
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
+      .gray-bg{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
       }
 
       .bio-img {
@@ -2965,11 +3031,17 @@ body {
 
       .bio-name {
         font-size: 24px;
+        line-height: 1.2;
         text-align: center;
       }
 
       .bio-title {
         text-align: center;
+        font-size: 18px;
+      }
+      .officers-section{
+         border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
       }
     }
 
@@ -3066,6 +3138,15 @@ body {
     @media (max-width: 991px) {
       .detail-card {
         margin-top: 20px;
+      }
+      .holiday-table{
+        overflow-x: scroll;
+      }
+      .holiday-table td{
+        font-size: 14px;
+      }
+      .table th{
+        font-size: 12px !important;
       }
     }
 
@@ -3294,6 +3375,21 @@ body {
       .passport-section {
         padding: 35px 25px;
       }
+      .fee-item .fee-item-first, .fee-label{
+        text-align: start;
+      }
+      .section-text-box{
+        text-align: start;
+      }
+      .service-section{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
+      .passport-section{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
+      
     }
 
     @media (max-width: 576px) {
@@ -3435,6 +3531,16 @@ body {
     @media (max-width: 768px) {
       .visa-box {
         padding: 25px;
+      }
+      .visa-heading{
+        font-size: 18px;
+      }
+      .services-footer{
+        margin-top: 60px !important;
+      }
+      .visa-section{
+         border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
       }
     }
 
@@ -3712,6 +3818,10 @@ body {
       .birth-info-card {
         margin-top: 30px;
       }
+      .birth-section{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
     }
 
 
@@ -3944,6 +4054,10 @@ body {
     @media (max-width: 991px) {
       .news-v2-sidebar {
         margin-top: 40px;
+      }
+      .news-v2-sidebar h4{
+        font-size: 25px;
+        line-height: 1.2;
       }
     }
 
@@ -4283,6 +4397,10 @@ body {
       .timeline-item-last::before {
         /* left: -30px; */
         display: none;
+      }
+      .relation-main-heading{
+        font-size: 25px;
+        line-height: 1.2;
       }
     }
 
