@@ -2855,15 +2855,15 @@ body {
       width: fit-content;
       transition: all 0.3s ease;
     }
-    .first-box {
+    .officer-first-box {
         /* margin-right: 10px; */
         padding-right: 95px;
     }
-    .second-box{
+    .officer-second-box{
     padding-right: 70px;
     }
 
-    .third-box{
+    .officer-third-box{
         padding-right: 50px;
     }
 
